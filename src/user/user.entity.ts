@@ -1,7 +1,7 @@
 import {Entity, PrimaryGeneratedColumn, Column, BeforeInsert, JoinTable, ManyToMany, OneToMany} from 'typeorm';
 import { IsEmail } from 'class-validator';
 import * as crypto from 'crypto';
-import { ArticleEntity } from '../article/article.entity';
+import { ArticleEntity } from '../tutorial/article/article.entity';
 
 @Entity('user')
 export class UserEntity {
